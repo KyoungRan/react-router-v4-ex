@@ -31,11 +31,11 @@ const App = () => (
                             transitionLeaveTimeout={300}
                         >
                             {/* no different than other usage of
-                ReactCSSTransitionGroup, just make
-                sure to pass `location` to `Route`
-                so it can match the old location
-                as it animates out
-            */}
+                			 ** ReactCSSTransitionGroup, just make
+                			 ** sure to pass `location` to `Route`
+                			 ** so it can match the old location
+                			 ** as it animates out
+            				*/}
                             <Route
                                 location={location}
                                 key={location.key}

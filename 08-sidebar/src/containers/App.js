@@ -9,6 +9,10 @@ const App = () => (
         <div style={{display: "flex"}}>
             <Sidebar />
             <div style={{flex: 1, padding: "10px"}}>
+                {/*
+				** Render more <Route>s with the same paths as
+				** above, but different components this time.
+				*/}
                 {routes.map((route, index) => (
                     <Route
                         key={index}
